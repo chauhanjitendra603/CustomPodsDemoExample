@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import CustomPodsDemoExample
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let logger = Logger()
+        
+        logger.printLog()
     }
 
     override func didReceiveMemoryWarning() {
